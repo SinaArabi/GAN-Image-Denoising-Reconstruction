@@ -67,14 +67,12 @@ The project applies GANs to the **FER2013 facial expression dataset** (48×48 gr
 - Quantitative evaluation confirmed gains in PSNR, SSIM, and MSE compared to reconstruction-only baselines.  
 
 ### 🔹 Example Reconstructions
-Noisy → Reconstructed (GAN) → Ground Truth  
+Ground Truth →  Noisy → Reconstructed (GAN) 
 
-![GAN Result 1](images/gan_results_1.png)  
-![GAN Result 2](images/gan_results_2.png)  
+![GAN Result 1](images/gan_results.png)  
+
 
 ---
 
 ## 📖 References
-- Goodfellow et al., 2014. *Generative Adversarial Nets*.  
 - FER2013 dataset: [Kaggle link](https://www.kaggle.com/datasets/deadskull7/fer2013)  
-- Course assignment instructions (see `assignment.png`).
